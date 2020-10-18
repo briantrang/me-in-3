@@ -1,0 +1,10 @@
+.clear-filter {
+    &:after,
+    &:before {
+        display: none;
+    }
+
+    &[filter-color="orange"] {
+        @include linear-gradient(rgba(#2c2c2c, 0.2), rgba(224, 23, 3, 0.6));
+    }
+}
